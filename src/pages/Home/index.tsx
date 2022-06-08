@@ -1,7 +1,9 @@
+import { Header } from '../../components/Header';
+
 export function Home() {
   return (
     <div>
-      <p>Elemento de texto</p>Home
+      <Header />
     </div>
   );
 }
