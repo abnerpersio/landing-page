@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ESNext",
     "lib": [
       "dom",
       "dom.iterable",
       "esnext"
     ],
+    "types": ["vite/client"],
     "baseUrl": ".",
     "allowJs": true,
     "skipLibCheck": true,
@@ -23,5 +24,6 @@
   },
   "include": [
     "src"
-  ]
+  ],
+  "references": [{ "path": "./tsconfig.node.json" }]
 }
